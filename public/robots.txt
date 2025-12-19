@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://deweddingfactory.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin-login
+Disallow: /admin-panel
+Disallow: /cloudinary-test
+
+# Allow all other content
+Allow: /about
+Allow: /wedding
+Allow: /parties
+Allow: /services
+Allow: /destinations
+Allow: /portfolio
+Allow: /contact
+
+# Crawl delay (optional)
+Crawl-delay: 1
